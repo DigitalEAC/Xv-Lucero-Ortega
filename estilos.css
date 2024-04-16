@@ -15,11 +15,14 @@ h1{
 
   font-family: "Pinyon Script", cursive;
   font-weight: 100;
+    font-size: 80px
+
 }
 
 h3{
    font-family: "Lora", serif;
-  font-weight:200
+  font-weight:200;
+    font-size: 40px
 }
 
 body{
@@ -47,7 +50,7 @@ body:before{
 }
 
 .cabecera{
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     font-size: 20px;
     text-align: center;
     display:block;
@@ -55,86 +58,94 @@ body:before{
     
 
 .decoracion img{
-    width: 150px;
+    width: 300px;
     padding: 0px;
     margin: -10px;
     margin-left: -15px       
 }
     
 .iglesia img{
-    width: 300px;
+    width: 600px;
     padding: 10px;
     border-radius: 70px;
  } 
 
 .boton img{
-    width: 90px;
+    width: 140px;
     border-radius: 25px;
 }
 
 .salon img{
-    width: 300px;
+    width: 600px;
     padding: 10px;
     border-radius: 70px; 
+    font-size: 30px;
+    text-align: center;
 }
 
 .boton2 img{
-    width: 90px;
+    width: 140px;
     border-radius: 25px;
     padding: 0px;
  }   
 
 .misxv{
     text-align:center;
-    font-size: 17px;
+    font-size: 20px;
  }
 
 .lucero{
     text-align: center;
-    font-size: 60px;
+    font-size: 90px;
     margin: 10px;
-    color: #997C28
+    color: #997C28;
  }
 
 .fecha{
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
 }   
 
 .teinvito{
-    font-size: 15px;
-    padding: 40px;
-    margin: -70px;
-    color: azure
+    font-size: 30px;
+   
  } 
     
 .iglesia2{
     text-align:center;
+    font-size: 30px;
  }   
 
 .siguiente{
     text-align: center;
-    font-size: 17px;
+    font-size: 40px;
     border-style: ridge;
     border-color: #997C28;
-    padding: 40px;
-    margin: -70px;
+    padding: 20px;
+    margin: -50px;
     border-width: medium;
     font-style:
 }
 
 .imagen2 img{
-    width: 200px;
+    width: 400px;
     padding: 40px;
     margin: 10px;
         
 }
 
+.gracias{
+    font-size: 30px;
+    text-align: center;
+}
+
 .xv img{
-    width: 800px;
+    width: 1200px;
     padding: -90px;
     margin: -90px;
-    margin-left: -280px;
+    
+}    
+   
     
 
     
