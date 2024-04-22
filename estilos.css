@@ -5,11 +5,13 @@
  
 }
 
-@media only screen and (max-width: 601px){
-    body{
-        font-size: 20px;
+.container {
+width: 80%;
 }
+h1 {
+font-size: 2em;
 }
+
 
 h1{
 
@@ -140,6 +142,7 @@ body:before{
     width: 1600px;
     padding: 40px;
     margin: 10px;
+    margin-right: -90px;
     text-align: center;
     
 }    
