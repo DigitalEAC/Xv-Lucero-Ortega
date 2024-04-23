@@ -30,7 +30,7 @@ h3{
 
 body{
     
-    padding: 30px;
+    padding: 90px;
     margin: 50px;
     background-image: url(../imagenes/Fondo2.jpg);
     background-size: cover;
@@ -48,7 +48,7 @@ body:before{
     top: 0;
     left: 0;
     background: rgba(230,235,252);
-    opacity: 0.25;
+    opacity: 0.35;
     z-index: -1;
 }
 
@@ -137,19 +137,65 @@ body:before{
     font-size: 30px;
     text-align: center;
 }
+       
+.teinvito{
+  color: black;
+    
+}
 
-.xv img{
-    width: 1600px;
-    padding: 40px;
-    margin: 10px;
-    margin-right: -90px;
-    text-align: center;
+.xv{
+  width: 1600px;
+  margin-right: 900px;
+    margin-left: -140px;
     
 }    
-   
-.teinvito{
-    color: black;
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, nav, main, footer {
+    margin-bottom: 20px;
+}
+
+header, nav, main, footer {
     
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
 
     
